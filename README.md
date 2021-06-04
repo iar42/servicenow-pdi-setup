@@ -59,7 +59,23 @@ The Batch Update Set provides the following settings and features:
 * Update set from Share: [Xplore: Developer Toolkit 4.8.1](https://developer.servicenow.com/connect.do#!/share/contents/9650888_xplore_developer_toolkit?v=4.8&t=PRODUCT_DETAILS) (as a child update set)
 
 
-# Future improvement ideas
+# How do I customize this for my needs?
 
-Some interesting settings and things in the following Community post series:
-https://community.servicenow.com/community?id=community_blog&sys_id=97d47697dbf09490feb1a851ca9619b2
+Easy way to customize and save the changes in a new Update Set:
+
+1. Install the "Base PDI Setup" Update Set on a fresh PDI
+1. Go to: System Update Sets -> Local Update Set
+1. Find and open "Base PDI Setup" Update Set
+1. Change State to "In Progress" and Save
+1. Select the Update Set via the Update Set picker or "Make This My Current Set" Related Link
+1. Make any neccessary changes just like with any other Update Set
+1. When all work is complete change the Update Set State to "Complate" and export it to XML
+
+Child Update Sets can also be added, updated, replaced or removed as desired or new child Update Sets added as needed before completing the "Base PDI Setup" Update set.
+
+
+# Links and related information
+
+Some interesting stuff in the following Community post series:
+[Provision your PDI or company/customer instances quicker, smarter (01): Setting-up your personal user account](https://community.servicenow.com/community?id=community_blog&sys_id=97d47697dbf09490feb1a851ca9619b2)
+
