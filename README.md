@@ -1,6 +1,6 @@
-# ServiceNow Base PDI Setup
+# ServiceNow PDI Setup
 
-This repository contains a Batch Update Set containing some settings and tools that assist in quickly prepare a freshly deployed ServiceNow Personal Developer Instance (PDI).
+This repository contains a Batch Update Set containing some settings and additional tools that assist in quickly preparing a freshly deployed ServiceNow Personal Developer Instance (PDI).
 
 # Installation
 
@@ -18,7 +18,7 @@ This repository contains a Batch Update Set containing some settings and tools t
 1. Find and open the "Base PDI Setup" Update Set
 1. Preview the Update Set
 1. Commit the Update Set
-1. Log out and back in to activate the new admin user preferences
+1. Log out and back in to activate the new admin user preferences (assuming the above was executed as the "admin" user)
 
 ### Install desired plugins:
 1. Go to: System Definition -> Fix Scripts
@@ -77,5 +77,5 @@ Child Update Sets can also be added, updated, replaced or removed as desired or 
 # Links and related information
 
 Some interesting stuff in the following Community post series:
-[Provision your PDI or company/customer instances quicker, smarter (01): Setting-up your personal user account](https://community.servicenow.com/community?id=community_blog&sys_id=97d47697dbf09490feb1a851ca9619b2)
+* [Provision your PDI or company/customer instances quicker, smarter (01): Setting-up your personal user account](https://community.servicenow.com/community?id=community_blog&sys_id=97d47697dbf09490feb1a851ca9619b2)
 
