@@ -16,8 +16,8 @@ This repository contains a Batch Update Set containing some settings and additio
 1. Choose the "Base PDI Setup.xml" file
 1. Click "Upload"
 1. Find and open the "Base PDI Setup" Update Set
-1. Preview the Update Set
-1. Commit the Update Set
+1. Preview Update Set Batch
+1. Commit Update Set Batch
 1. Log out and back in to activate the new admin user preferences (assuming the above was executed as the "admin" user)
 
 ### Install desired plugins:
@@ -26,10 +26,20 @@ This repository contains a Batch Update Set containing some settings and additio
 1. Optionally add or remove any plugins to be installed by adding or removing "plugins.push(..)" lines
 1. Save the Fix Script if you made any changes in the previous step
 1. Run the fix Script in foreground. It does not need to be run in background since it finishes instantly.
-1. If you want to follow the installation progress, copy and open the URLs displayed in the message popup (or progress worker output if the script was run in background)
+1. If you want to follow the installation progress, copy and open the two URLs displayed in the message popup (or progress worker output if the script was run in background)
 1. Plugin activation is finished when all plugins have reached State=Active
 1. Progress can also be monitored by refreshing the System Diagnostics -> Upgrade History list
 (Total installation time has been observed to be somewhere between 30-40 minutes on a fresh PDI)
+
+Example Fix Script output:
+```
+*** Script: Plugin installation has been initiated, please note that installation runs in the background and can take some time.
+*** Script: Please visit the following URLs to monitor the state of the installed plugins.
+*** Script: The installation has finished when all the following plugins have reached State=Active.  
+*** Script: https://devXXXXXX.service-now.com/nav_to.do?uri=%2Fv_plugin_list.do%3Fsysparm_query%3DidINcom.snc.service_portfolio.sla_commitment,com.snc.sc_catalog_manager,com.snc.financial_planning_pmo,com.snc.sdlc.agile.2.0,com.snc.sdlc.agile.multi_task,com.glide.i18n,com.snc.test_management.2.0,com.snc.incident.mim,com.snc.change_management.risk_assessment  
+*** Script: A more detailed installation progress can also be seen in the Upgrade History log:  
+*** Script: https://devXXXXXX.service-now.com/nav_to.do?uri=sys_upgrade_history_list.do
+```
 
 ### Install plugin demo data:
 The Fix Script does not install plugin demo data so if demo data is desired it needs to be installed separately for the relevant plugins:
