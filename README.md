@@ -27,7 +27,7 @@ This repository contains a Batch Update Set containing some settings and additio
 1. Save the Fix Script if you made any changes in the previous step
 1. Run the fix Script in foreground. It does not need to be run in background since it finishes instantly.
 1. If you want to follow the installation progress, copy and open the two URLs displayed in the message popup (or progress worker output if the script was run in background)
-1. Plugin activation is finished when all plugins have reached State=Active
+1. Plugin activation is finished when all plugins have reached Status=Active
 1. Progress can also be monitored by refreshing the System Diagnostics -> Upgrade History list
 (Total installation time has been observed to be somewhere between 30-40 minutes on a fresh PDI)
 
