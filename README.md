@@ -38,7 +38,6 @@ The Fix Script does not install plugin demo data so if demo data is desired it n
 1. Select "Repair" from the three-dot menu
 1. Check "Load demo data" as true and click Repair
 
-
 # What's included in the package?
 
 The Batch Update Set provides the following settings and features:
@@ -58,7 +57,6 @@ The Batch Update Set provides the following settings and features:
 * Update set from Share: [Add to Update Set Utility v7.1](https://developer.servicenow.com/connect.do#!/share/contents/9824957_add_to_update_set_utility?v=7.1&t=PRODUCT_DETAILS) (as a child update set)
 * Update set from Share: [Xplore: Developer Toolkit 4.8.1](https://developer.servicenow.com/connect.do#!/share/contents/9650888_xplore_developer_toolkit?v=4.8&t=PRODUCT_DETAILS) (as a child update set)
 
-
 # How do I customize this for my needs?
 
 Easy way to customize and save the changes in a new Update Set:
@@ -72,7 +70,6 @@ Easy way to customize and save the changes in a new Update Set:
 1. When all work is complete change the Update Set State to "Complate" and export it to XML
 
 Child Update Sets can also be added, updated, replaced or removed as desired or new child Update Sets added as needed before completing the "Base PDI Setup" Update set.
-
 
 # Links and related information
 
