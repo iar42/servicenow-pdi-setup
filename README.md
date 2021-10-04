@@ -24,6 +24,7 @@ This repository contains a Batch Update Set containing some settings and additio
 1. Go to: System Definition -> Fix Scripts
 1. Find and open Fix Script "Install Base PDI Plugins"
 1. Optionally add or remove any plugins to be installed by adding or removing "plugins.push(..)" lines
+1. Optionally modify the install_demo_data variable at the top to "true" if plugin demo data should be installed with plugins
 1. Save the Fix Script if you made any changes in the previous step
 1. Run the fix Script in foreground. It does not need to be run in background since it finishes instantly.
 1. If you want to follow the installation progress, copy and open the two URLs displayed in the message popup (or progress worker output if the script was run in background)
@@ -40,13 +41,6 @@ Example Fix Script output:
 *** Script: A more detailed installation progress can also be seen in the Upgrade History log:  
 *** Script: https://devXXXXXX.service-now.com/nav_to.do?uri=sys_upgrade_history_list.do
 ```
-
-### Install plugin demo data:
-The Fix Script does not install plugin demo data so if demo data is desired it needs to be installed separately for the relevant plugins:
-1. Go to System Definition -> Plugins
-1. Find the relevant plugin (example: PPM Standard / com.snc.financial_planning_pmo)
-1. Select "Repair" from the three-dot menu
-1. Check "Load demo data" as true and click Repair
 
 # What's included in the package?
 
@@ -77,7 +71,7 @@ Easy way to customize and save the changes in a new Update Set:
 1. Change State to "In Progress" and Save
 1. Select the Update Set via the Update Set picker or "Make This My Current Set" Related Link
 1. Make any neccessary changes just like with any other Update Set
-1. When all work is complete change the Update Set State to "Complate" and export it to XML
+1. When all work is complete change the Update Set State to "Complete" and export it to XML
 
 Child Update Sets can also be added, updated, replaced or removed as desired or new child Update Sets added as needed before completing the "Base PDI Setup" Update set.
 
