@@ -24,7 +24,7 @@ This repository contains a Batch Update Set containing some settings and additio
 1. Go to: System Definition -> Fix Scripts
 1. Find and open Fix Script "Install Base PDI Plugins"
 1. Optionally add or remove any plugins to be installed by adding or removing "plugins.push(..)" lines
-1. Optionally modify the install_demo_data variable at the top to "true" if plugin demo data should be installed with plugins
+1. Optionally modify the "var include_demo_data .." line to "true" if plugin demo data should be installed with plugins
 1. Save the Fix Script if you made any changes in the previous step
 1. Run the fix Script in foreground. It does not need to be run in background since it finishes instantly.
 1. If you want to follow the installation progress, copy and open the two URLs displayed in the message popup (or progress worker output if the script was run in background)
