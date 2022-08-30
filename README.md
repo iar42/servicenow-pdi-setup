@@ -55,11 +55,10 @@ The Batch Update Set provides the following settings and features:
     * Show 100 rows per page
     * Show domain picker in header
     * Show application picker in header
-* Following Code Search Tables added according to SN Utils (v 5.1.0.5) recommendations:
-    * sys_ws_operation, sys_web_service, sys_variable_value, sys_ui_list_control, sys_ui_context_menu, sys_transform_entry, sys_script_fix, sys_script_email, sys_properties, sys_filter_option_dynamic, sys_dictionary_override, sys_dictionary, sys_app_quota, sp_widget, sp_search_source, sp_angular_provider, sc_cat_item_producer, metric_definition
-* UI Action: ["Find Record References" from SN Guru / servicenowguru.com](https://servicenowguru.com/system-definition/find-references-specific-record/) (as a child update set)
-* Update set from Share: [Add to Update Set Utility v7.4](https://developer.servicenow.com/connect.do#!/share/contents/9824957_add_to_update_set_utility?v=7.4&t=PRODUCT_DETAILS) (as a child update set)
-* Update set from Share: [Xplore: Developer Toolkit 4.11](https://developer.servicenow.com/connect.do#!/share/contents/9650888_xplore_developer_toolkit?v=4.11&t=PRODUCT_DETAILS) (as a child update set)
+* Code Search Tables added according to SN Utils Codesearch recommendations (child update set)
+* UI Action: ["Find Record References" from SN Guru / servicenowguru.com](https://servicenowguru.com/system-definition/find-references-specific-record/) (child update set)
+* Update set from Share: [Add to Update Set Utility v7.5](https://developer.servicenow.com/connect.do#!/share/contents/9824957_add_to_update_set_utility?v=7.5&t=PRODUCT_DETAILS) (child update set)
+* Update set from Share: [Xplore: Developer Toolkit 4.12](https://developer.servicenow.com/connect.do#!/share/contents/9650888_xplore_developer_toolkit?v=4.12&t=PRODUCT_DETAILS) (child update set)
 
 # How do I customize this for my needs?
 
