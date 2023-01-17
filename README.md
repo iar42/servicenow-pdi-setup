@@ -57,8 +57,8 @@ The Batch Update Set provides the following settings and features:
     * Show application picker in header
 * Code Search Tables added according to SN Utils Codesearch recommendations (child update set)
 * UI Action: ["Find Record References" from SN Guru / servicenowguru.com](https://servicenowguru.com/system-definition/find-references-specific-record/) (child update set)
-* Update set from Share: [Add to Update Set Utility v7.5](https://developer.servicenow.com/connect.do#!/share/contents/9824957_add_to_update_set_utility?v=7.5&t=PRODUCT_DETAILS) (child update set)
-* Update set from Share: [Xplore: Developer Toolkit 4.12](https://developer.servicenow.com/connect.do#!/share/contents/9650888_xplore_developer_toolkit?v=4.12&t=PRODUCT_DETAILS) (child update set)
+* Update set from Share: [Add to Update Set Utility v7.6](https://developer.servicenow.com/connect.do#!/share/contents/9824957_add_to_update_set_utility?v=7.5&t=PRODUCT_DETAILS) (child update set)
+* Update set from Share: [Xplore: Developer Toolkit 4.13](https://developer.servicenow.com/connect.do#!/share/contents/9650888_xplore_developer_toolkit?v=4.12&t=PRODUCT_DETAILS) (child update set)
 
 # How do I customize this for my needs?
 
